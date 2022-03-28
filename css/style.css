@@ -1,3 +1,28 @@
-body {
-    background-color: aqua;
+h3 .container {
+    margin-bottom: 20px;
+}
+
+/* BOX */
+
+.box,
+.inner-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    background-color: #006cfa;
+    padding: 1rem;
+
+}
+
+.inner-box {
+    background-color: #00e165;
+    height: 100%;
+    border: 1px solid #006cfa;
+}
+
+#h80 {
+    height: 80px;
 }
